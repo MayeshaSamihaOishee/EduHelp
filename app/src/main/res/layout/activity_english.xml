@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9ffff"
+    tools:context="com.example.dell.dailyplanner.English">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marks Distribution of ENG101:"
+                android:textAlignment="center"
+                android:textSize="20.5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/chart1"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:id="@+id/coursecontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                tools:textColor="@color/colorPrimaryDark"
+                android:text="Course Content:"/>
+
+            <TextView
+                android:id="@+id/coursecontentt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                tools:textColor="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:text="This course is designed for the students at an upper intermediate language proficiency level. To sharpen all four language skills, the strand is parted into two pairs of skills: the speaking and listening pair and the reading and writing pair."/>
+            <TextView
+                android:id="@+id/titl"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/matbutton"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="View more"
+                android:onClick="buttontowebview"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9ffff"
+    tools:context="com.example.dell.dailyplanner.English">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Members of ENG101:"
+                android:textAlignment="center"
+                android:textSize="21.5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <TextView
+                android:id="@+id/coursecontentt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                tools:textColor="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:text="1. Shams Ud Duha \n 2. Tasmia Nawrin \n 3. Md. Jahirul Islam \n   4. Nipa Nasrin \n 5. Mohammad Aminul Islam \n 6. Rokhsana Akter
+
+"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

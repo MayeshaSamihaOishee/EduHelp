@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9ffff"
+    android:orientation="vertical"
+    tools:context="com.example.dell.dailyplanner.CseMarks">
+
+    <TextView
+        android:id="@+id/titleee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks of CSE110:"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#40e0d0"
+        />
+
+    <ListView
+        android:id="@+id/list_View_call_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

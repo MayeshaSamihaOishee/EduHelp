@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.dailyplanner">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MorningActivity" />
+        <activity android:name=".WebView" />
+        <activity android:name=".TabLayoutLoginSignup" />
+        <activity android:name=".fragment.LoginFragment" />
+        <activity android:name=".fragment.SignupFragment" />
+        <activity android:name=".TabLayoutCourses" />
+        <activity android:name=".CourseGridItems" />
+        <activity android:name=".CourseList" />
+        <activity android:name=".Physics" />
+        <activity android:name=".Mat" />
+        <activity android:name=".English" />
+        <activity android:name=".Attendance" />
+        <activity android:name=".Recycler" />
+        <activity android:name=".TabLayoutAttendance" />
+        <activity android:name=".fragment.CseAttendanceFragment" />
+        <activity android:name=".fragment.MatAttendanceFragment" />
+        <activity android:name=".fragment.PhyAttendanceFragment" />
+        <activity android:name=".fragment.EngAttendanceFragment" />
+        <activity android:name=".CseMarks" />
+        <activity android:name=".MatMarks" />
+        <activity android:name=".PhyMarks" />
+        <activity android:name=".EngMarks" />
+        <activity android:name=".DC" />
+        <activity android:name=".RAK" />
+        <activity android:name=".SAI" />
+        <activity android:name=".WebViewMat" />
+        <activity android:name=".AMR" />
+        <activity android:name=".SAN" />
+        <activity android:name=".HNA" />
+        <activity android:name=".SDH" />
+        <activity android:name=".MFA" />
+        <activity android:name=".MHM" />
+        <activity android:name=".AQD" />
+        <activity android:name=".MZK" />
+        <activity android:name=".WebViewEnglish" />
+        <activity android:name=".WebViewPhysics" />
+        <activity android:name=".FHH" />
+        <activity android:name=".MSR" />
+        <activity android:name=".MLR" />
+        <activity android:name=".MSB"></activity>
+    </application>
+
+</manifest>

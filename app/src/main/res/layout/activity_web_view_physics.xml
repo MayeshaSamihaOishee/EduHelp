@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?><android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.dailyplanner.WebViewPhysics"
+    android:background="@drawable/root_calling_gradient"
+    android:id="@+id/MainRootLayout"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Members of PHY111:"
+                android:textAlignment="center"
+                android:textSize="22.5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:id="@+id/titl"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttonymorn"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Dr. Md. Firoze H. Haque (fhh)"
+                android:onClick="fhh"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/titleo"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonimorn"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Mr. Mahbobe Shobahani (msb)"
+                android:onClick="msb"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/titlewe"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttonhm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Muhammad Lutfor Rahman (mlr) "
+                android:onClick="mlr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/titleuw"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttgonm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Mohammad Mosaddidur Rahman (msr)"
+                android:onClick="msr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+package com.example.dell.dailyplanner.adapter;
+
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+
+import java.util.ArrayList;
+
+/**
+ * Created by Md. Tauhidul Islam on 31/01/2018.
+ */
+
+public class ViewPagerAdapter extends FragmentPagerAdapter {
+
+    ArrayList<Fragment> fragmentArrayList = new ArrayList<>();
+    ArrayList<String> tabTitleList = new ArrayList<>();
+
+    public ViewPagerAdapter(FragmentManager fm) {
+        super(fm);
+    }
+
+    @Override
+    public Fragment getItem(int position) {
+        return fragmentArrayList.get(position);
+    }
+
+    @Override
+    public int getCount() {
+        return fragmentArrayList.size();
+    }
+
+    @Override
+    public String getPageTitle(int position){
+        return tabTitleList.get(position);
+    }
+
+    public void addFragment(Fragment fragment, String title){
+        fragmentArrayList.add(fragment);
+        tabTitleList.add(title);
+    }
+    public void addFragment2(Fragment fragment, String title){
+        fragmentArrayList.add(fragment);
+        tabTitleList.add(title);
+    }
+
+    public void addFragment3(Fragment fragment, String title){
+        fragmentArrayList.add(fragment);
+        tabTitleList.add(title);
+    }
+
+    public void addFragment4(Fragment fragment, String title){
+        fragmentArrayList.add(fragment);
+        tabTitleList.add(title);
+    }
+}

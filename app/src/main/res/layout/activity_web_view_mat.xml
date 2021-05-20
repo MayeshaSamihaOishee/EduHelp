@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.dailyplanner.WebViewMat"
+    android:background="@drawable/root_calling_gradient"
+    android:id="@+id/MainRootLayout"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Members of MAT110:"
+                android:textAlignment="center"
+                android:textSize="22.5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:id="@+id/titl"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttonymorn"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="a.h.m. mahbubur rahman (amr)"
+                android:onClick="amr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/titleo"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonimorn"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Ms. Sanjeeda Nazneen (san)"
+                android:onClick="san"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/titlewe"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttonhm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Dr. Hasibun Naher (hna)"
+                android:onClick="hna"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/titleuw"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttgonm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Md. Saddam Hossain (sdh)"
+                android:onClick="sdh"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tittlew"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buyttonm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Md. Maruf Ahmed (mfa)"
+                android:onClick="mfa"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/titlttew"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/bufttonm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Mohammad Hassan Murad (mhm)"
+                android:onClick="mhm"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/Ytitlew"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttoOnm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Abdul Quader (aqd)"
+                android:onClick="aqd"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/titlew"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/buttonm"
+                style="@style/button_text"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/yellow_button"
+                android:text="Mehnaz Karim (mzk)"
+                android:onClick="mzk"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textColor="@android:color/white"
+                tools:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
